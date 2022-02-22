@@ -9,7 +9,7 @@ public class Main {
         calc.println.accept(a);
         int b = calc.minus.apply(1, 1);
         calc.println.accept(b);
-        double c = calc.divide.apply(Integer.valueOf(2).doubleValue(), Integer.valueOf(0).doubleValue());
+        int c = calc.divide.apply(a, b);
         calc.println.accept(c);
         int d = calc.multiply.apply(1, 2);
         calc.println.accept(d);
